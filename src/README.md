@@ -31,15 +31,11 @@ This project demonstrates a full ETL pipeline that extracts, transforms, and loa
 - Load the transformed data into a local SQLite database: `stock_data.db`
 - Table name: `stocks`
 
-### 4. ## 📈 Visualization
-
-The chart below shows the trend of Apple stock closing prices with a 7-day moving average.
-
-![Stock Trend](images/stock_plot.png)
-
+### 4. **Visualize**
+- Line chart comparing **Close Price** and **7-Day Moving Average**
+- Saved to `images/stock_plot.png`
 
 ---
-
 
 ## 📁 Project Structure
 
@@ -58,3 +54,35 @@ stock_etl_pipeline/
 ├── requirements.txt     # Python dependencies
 └── README.md            # Project summary and instructions
 ```
+
+---
+
+## 💻 How to Run the Project
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/zuberkhan-git/stock_etl_pipeline.git
+cd stock_etl_pipeline
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Run the ETL pipeline
+python src/main.py
+```
+
+---
+
+## 📊 Sample Output
+
+The pipeline saves a chart comparing stock price and its 7-day moving average:
+
+![Stock Trend](images/stock_plot.png)
+
+---
+
+## 📬 Contact
+
+Made by Zuber Khan  
+Connect on [LinkedIn](https://www.linkedin.com/in/zuber-khan-5b8ab3117/)  
+Feel free to fork and use!

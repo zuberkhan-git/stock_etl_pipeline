@@ -33,7 +33,7 @@ This project demonstrates a full ETL pipeline that extracts, transforms, and loa
 
 ### 4. **Visualize**
 - Line chart comparing **Close Price** and **7-Day Moving Average**
-- Saved to `images/stock_plot.png`
+- Saved to `src/images/stock_plot.png`
 
 ---
 
@@ -77,7 +77,7 @@ python src/main.py
 
 The pipeline saves a chart comparing stock price and its 7-day moving average:
 
-![Stock Trend](images/stock_plot.png)
+![Stock Trend](src/images/stock_plot.png)
 
 ---
 

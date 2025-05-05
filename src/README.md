@@ -38,9 +38,6 @@ The chart below shows the trend of Apple stock closing prices with a 7-day movin
 ![Stock Trend](images/stock_plot.png)
 
 
----
-
-
 ## 📁 Project Structure
 
 ```text

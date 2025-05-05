@@ -35,4 +35,4 @@ This project demonstrates a full ETL pipeline that extracts, transforms, and loa
 
 The chart below shows the trend of Apple stock closing prices with a 7-day moving average.
 
-![Stock Trend](images/stock_plot.png)
+![Stock Trend](src/images/stock_plot.png)

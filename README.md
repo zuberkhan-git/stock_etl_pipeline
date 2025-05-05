@@ -36,3 +36,23 @@ This project demonstrates a full ETL pipeline that extracts, transforms, and loa
 The chart below shows the trend of Apple stock closing prices with a 7-day moving average.
 
 ![Stock Trend](src/images/stock_plot.png)
+
+
+## 📁 Project Structure
+
+```text
+stock_etl_pipeline/
+├── data/                # Optional raw or cleaned CSVs
+├── images/              # Chart for README (e.g., stock_plot.png)
+│   └── stock_plot.png
+├── src/
+│   ├── extract.py       # Extracts stock data from Yahoo Finance
+│   ├── transform.py     # Cleans and adds indicators
+│   ├── load.py          # Loads into SQLite
+│   ├── query.py         # Queries SQLite (for debugging/validation)
+│   └── main.py          # Orchestrates the ETL steps
+├── stock_data.db        # SQLite database with transformed stock data
+├── requirements.txt     # Python dependencies
+└── README.md            # Project summary and instructions
+```
+

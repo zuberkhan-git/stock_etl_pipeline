@@ -30,4 +30,6 @@ plt.ylabel('Price')
 plt.legend()
 plt.grid(True)
 plt.tight_layout()
-plt.show()
+plt.savefig("images/stock_plot.png", bbox_inches="tight")
+
+

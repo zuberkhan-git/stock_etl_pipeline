@@ -31,9 +31,12 @@ This project demonstrates a full ETL pipeline that extracts, transforms, and loa
 - Load the transformed data into a local SQLite database: `stock_data.db`
 - Table name: `stocks`
 
-### 4. **Visualize**
-- Line chart comparing **Close Price** and **7-Day Moving Average**
-- Saved to `images/stock_plot.png`
+### 4. ## 📈 Visualization
+
+The chart below shows the trend of Apple stock closing prices with a 7-day moving average.
+
+![Stock Trend](images/stock_plot.png)
+
 
 ---
 
